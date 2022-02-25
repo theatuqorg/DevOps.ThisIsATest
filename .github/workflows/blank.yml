@@ -45,6 +45,6 @@ jobs:
       - name: Get App Installation Token
         run: |
           echo "This token is masked: ${TOKEN}"
-          echo "This token is unmasked:echo "::add-mask::${{ steps.get_token.outputs.app_token }}"
+          echo "${{ steps.get_token.outputs.app_token }}"
         env: 
           TOKEN: ${{ steps.get_token.outputs.app_token }}
