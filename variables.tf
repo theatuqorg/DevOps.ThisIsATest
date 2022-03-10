@@ -1,6 +1,6 @@
 ## General variables ##
 variable "project" {}
-variable "tags" {}
+variable "tagsnew" {}
 variable "location" {}
 variable "iteration" {}
 
