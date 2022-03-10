@@ -1,1 +1,2 @@
 *.tf @theatuqorg/squid
+*variables.tf
